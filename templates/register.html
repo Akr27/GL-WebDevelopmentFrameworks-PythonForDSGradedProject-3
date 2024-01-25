@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+
+<body>
+
+
+    <div class="mainbodywrapper">
+        <div class="headerwrapper">
+            <p class="header-prim">Enter your details to Register.</p>
+        </div>
+        <div class="divButtonWrap">
+            <div style="text-align:center">
+                <div style="text-align:center">
+                    <form method="POST" action="">
+                        {{ form.hidden_tag() }}
+                        {{ form.username }}
+                        {{ form.password }}
+                        {{ form.submit }}
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div style="text-align:left">
+            <p class="header-sec-under">Already have an account?</p>
+            <a class="gl-button" href="{{ url_for('login') }}">Login</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.gl-button {
+	  background-color: #04AA6D;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: 2px solid #17460d7a;
+	  border-radius: 5px;
+	  cursor: pointer;
+	  width: 100%;
+	  text-decoration: none;
+	  margin-right: 10px;
+	}
+
+	.gl-button:hover {
+	  background-color: blue;
+	}
+
+	.divButtonWrap {
+	  display: flex;
+	  margin: 30px auto;
+	}
+
+	.header-prim {
+	  font-size: 30px;
+	  margin: 0px;
+	  color: #0000ffb5;
+	}
+
+	.header-sec {
+	  font-size: 20px;
+	  margin: 0px;
+	  color: #0010ff80;
+	}
+
+	.mainbodywrapper {
+	  margin: 30px;
+	}
+
+	.form-wrapper {
+	  margin: 30px auto;
+	}
+
+	.form-main>label {
+	  font-weight: bold;
+	  color: #04AA6D;
+	  margin: 0px 20px 0px 0px;
+	}
+
+	.gl-button.btn-fix-wdth {
+	  width: 500px;
+	}
+
+	.header-sec-under {
+	  font-size: 20px;
+	  color: #0010ff54;
+	}
+
+	p.header-pred {
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px auto;
+	}

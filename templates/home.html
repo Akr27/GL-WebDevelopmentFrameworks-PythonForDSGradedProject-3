@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+
+<body>
+
+    <div class="mainbodywrapper">
+        <div class="headerwrapper">
+            <p class="header-prim">Please Login to your existing GL account to check your loan eligibility.</p>
+            <p class="header-sec">(Or Register if you dont have an account.)</p>
+        </div>
+        <div class="divButtonWrap">
+            <div style="text-align:center">
+                <a class="gl-button" href="{{ url_for('login') }}">Login Now</a><br>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <a class="gl-button" href="{{ url_for('register') }}"></b>Register Now</a><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
